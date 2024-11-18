@@ -76,8 +76,26 @@ When analyzing documents / forms to use with ReadyDoX, identify the data collect
 For more general information on using ReadyDoX, click here:
 https://knowledge.signix.com/helpcenter/readydox-feature
 
-A screen-by-screen walkthrough of the two scenarios is included in the sample files.
-<<<<<<<>>>>>>>
+A screen-by-screen walkthrough of the two scenarios is included in the sample files
+[ReadyDoX Walkthroughs](https://github.com/kmsignix/zoom-readydox/blob/main/ReadyDox%20Walkthroughs.pdf) .
+
+From a signer perspective, two HTML pages are included as sample forms libraries. One is for general customer services
+and the other is for the Service Center intranet. The top form in each has a link to a ReadyDoX transaction - the 
+others are placeholders. Adding the links are simple:
+```html
+<div class="form-section">
+        <p><strong>Change of State and Insurance Form</strong><br>
+        <a href="https://webtest.signix.biz/enter.jsp?m=111&i=Fu12aYAZNVj2ExUC0ZgBXS">
+            Change of State and Insurance Form</a><br>
+        Use this form to update your state of residence and insurance information. This 
+        ensures your jet pack is compliant with local regulations and covered under the 
+        appropriate insurance policies.</p>
+    </div>
+```
+
+The two ReadyDoX transactions are as follows:
+- [Change of State and Insurance form](https://webtest.signix.biz/enter.jsp?m=111&i=Fu12aYAZNVj2ExUC0ZgBXS)
+- [Inspection and Servicing form](https://webtest.signix.biz/enter.jsp?m=111&i=J8mJiaK4J1DDWTNqAABQ7Y)
 
 When data is downloaded from a ReadyDoX transaction (in CSV format), it has columns for both tag names and tag values.
 This can be transformed into a more general-purpose format, using an Excel file containing a Power Query. Such an 
@@ -97,7 +115,7 @@ It may be necessary to format date columns, etc., prior to further processing.
 - Documents / Forms / PDFs
   - Example PDFs for the Change of State and Insurance form, and the Inspection and Servicing form.
 - HTMLs
-  - Example web pages thats how a sample document / form library. One is for owner-facing customer services, while the other is for an Intranet page for the Service Center. The top links in each form start a ReadyDoX transaction (the others are placeholders).
+  - Example web pages that show a sample document / form library with links to ReadyDoX transactions. One is for customer services, while the other is for an Intranet page for the Service Center. The top links in each form start a ReadyDoX transaction (the others are placeholders).
 - Excel file
   - File to transform the output of the Report to a more general-purpose format.
 - Walkthrough PDF
