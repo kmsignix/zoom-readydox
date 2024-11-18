@@ -67,11 +67,11 @@ There are two scenarios covered by the sample files:
 
 In both scenarios, the general process of configuring ReadyDoX is as follows:
 
-<<<<<<<>>>>>>>
+![ReadyDoX-Configuration](https://github.com/user-attachments/assets/6d78c61c-d097-4903-9e19-1234a6e6a4c3)
 
 When analyzing documents / forms to use with ReadyDoX, identify the data collection fields and the signature fields.
 
-<<<<<<<>>>>>>
+![ReadyDoX-Form-Analysis](https://github.com/user-attachments/assets/1df9b0e2-5741-4f18-af0f-059002be49c5)
 
 For more general information on using ReadyDoX, click here:
 https://knowledge.signix.com/helpcenter/readydox-feature
@@ -95,9 +95,9 @@ It may be necessary to format date columns, etc., prior to further processing.
 
 ## Explanation of Files
 - Documents / Forms / PDFs
-  - Example PDFs for the insurance data request and recall notice.
-- CSVs
-  - Example CSVs that contain distribution lists and details of prepopulated fields and data to be collected.
+  - Example PDFs for the Change of State and Insurance form, and the Inspection and Servicing form.
+- HTMLs
+  - Example web pages thats how a sample document / form library. One is for owner-facing customer services, while the other is for an Intranet page for the Service Center. The top links in each form start a ReadyDoX transaction (the others are placeholders).
 - Excel file
   - File to transform the output of the Report to a more general-purpose format.
 - Walkthrough PDF
